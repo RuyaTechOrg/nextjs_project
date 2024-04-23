@@ -1,2 +1,1 @@
-# nextjs_project
-A next js landing page 
+# Gumonda is a tech startup - That conducts a series of services from mobile App/ web app development to Internet of Things & Web 3
