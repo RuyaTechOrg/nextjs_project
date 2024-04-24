@@ -17,7 +17,7 @@ export default function Banner() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Visit<span className="hidden sm:inline"> Devloper</span>
+                Visit<span className="hidden sm:inline"> Github</span>
               </a>{' '}
               {/* <span className="italic px-1.5">or</span>{' '} */}
               {/* <a className="font-medium hover:underline text-emerald-400" href="https://cruip.com/open-pro/" target="_blank" rel="noreferrer">

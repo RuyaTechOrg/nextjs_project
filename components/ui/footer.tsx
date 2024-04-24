@@ -1,7 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import logoImg from '../../public/images/Untitled-1-03-removebg-preview.png';
+import React from 'react';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -31,13 +29,13 @@ export default function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Products</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">AidPlug</Link>
+                    <Link href="/products" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">AidPlug</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">HomePlug</Link>
+                    <Link href="/products" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">NILM</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">GetSome</Link>
+                    <Link href="/products" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">GetSome</Link>
                   </li>
                 </ul>
               </div>
@@ -121,12 +119,9 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-
             {/* Copyrights note */}
             <div className="text-gray-400 text-sm mr-4">&copy; Gumonda.com. All rights reserved.</div>
-
           </div>
-
         </div>
       </div>
     </footer>
